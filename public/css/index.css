@@ -26,5 +26,27 @@ body {
 nav li a {
     text-decoration: none;
     margin-left: 75px;
-    float: right
+    float: right;
+    color: black;
+
+}
+
+nav a:hover {
+    color: black;
+}
+
+.pic {
+    float: right;
+}
+
+.but {
+    float: right;
+    background-color: aqua;
+    border-radius: 10px;
+    font-family: Montserrat;
+}
+
+.head {
+    margin-left: 80px;
+    padding-top: 200px;
 }

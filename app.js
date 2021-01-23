@@ -28,3 +28,7 @@ app.get('/', (req, res) => {
 app.get('/authentication', (req, res) => {
     res.render('authentication');
 });
+
+app.get('/homepage', (req, res) => {
+    res.render('homepage');
+});

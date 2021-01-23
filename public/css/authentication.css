@@ -110,4 +110,20 @@ h2 {
     height: 50px;
     border-radius: 50px;
     margin-bottom: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.google_text {
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+}
+
+.google_img {
+    width: 25px;
+    height: 25px;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
 }
