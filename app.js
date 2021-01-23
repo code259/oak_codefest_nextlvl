@@ -5,14 +5,26 @@
 
 const express = require('express');
 const path = require('path');
-const mogan = require('morgan');
+const morgan = require('morgan');
 
 const app = express();
+
+app.listen(8080);
 
 app.set('view engine', 'ejs')
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.listen(8080);
-
 app.use(morgan('dev'));
+
+
+app.get('/', (req, res) => {
+
+    res.sendFile('./views/index.html', {
+        root: __dirname
+    });
+});
+
+app.get('/authentication', (req, res) => {
+    res.render('authentication');
+});
