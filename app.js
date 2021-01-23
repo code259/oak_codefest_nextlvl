@@ -69,7 +69,20 @@ app.get('/upload', (req, res) => {
     });
 });
 
+app.get('/tuneyourmind', (req, res) => {
 
+    res.sendFile('./views/construction.html', {
+        root: __dirname
+    });
+});
+
+
+app.get('/timerpage', (req, res) => {
+
+    res.sendFile('./views/timer.html', {
+        root: __dirname
+    });
+});
 
 app.use((req, res) => {
 

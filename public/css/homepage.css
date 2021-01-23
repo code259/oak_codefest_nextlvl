@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: #1A2547;
+}
+
+a:hover {
+    color: #4723D9;
+}
+
 body {
     display: flex;
     font-family: 'Montserrat';

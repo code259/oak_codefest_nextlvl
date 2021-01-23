@@ -191,7 +191,8 @@ body {
     position: absolute;
     top: 10rem;
     left: -15rem;
-
+    font-style: italic;
+    font-weight: 600;
 }
 
 .illustration {

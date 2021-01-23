@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;900&display=swap');
+
+.clock {
+    background-color: #3258E1;
+    width: 1150px;
+    height: 250px;
+    border-radius: 12px
+}
+
+.format {
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+
+.hours {
+    position: absolute;
+    top: 9rem;
+    left: 10rem;
+
+
+}
+
+.minutes {
+    position: absolute;
+    top: 9rem;
+    left: 30rem;
+}
+
+.seconds {
+    position: absolute;
+    top: 9rem;
+    left: 50rem;
+}
+
+.h {
+    position: absolute;
+    top: 4rem;
+    left: 12rem;
+    align-content: center;
+}
+
+.m {
+    position: absolute;
+    top: 4rem;
+    left: 32rem;
+    align-content: center;
+}
+
+.s {
+    position: absolute;
+    top: 4rem;
+    left: 52rem;
+    align-content: center;
+}
+
+.style {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+.tot {
+    width: 500px;
+    height: 500px;
+    background-color: #0138FF;
+    border-radius: 5px;
+}
+
+.head {
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 61px;
+    color: white;
+    margin-left: 11px;
+}
+
+.coins {
+    position: absolute;
+    top: 30rem;
+    font-size: 32px;
+    margin-left: 11px;
+}
+
+.points {
+    position: absolute;
+    top: 35rem;
+    font-size: 32px;
+    margin-left: 11px;
+}
+
+.score {
+    position: absolute;
+    top: 40rem;
+    font-size: 32px;
+    margin-left: 11px;
+}
+
+.strt {
+    position: absolute;
+    left: 41rem;
+    top: 19rem;
+    width: 500px;
+    height: 500px;
+    background-color: #20D00A;
+    border: none;
+    border-radius: 5px;
+}
+
+.txt {
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 71px;
+    color: white;
+
+}
