@@ -1,4 +1,4 @@
-// How to git commit 
+git add // How to git commit 
 // git add . ( here type what to add )
 // 1. git commit -m "type commit here"
 // 2. git push -u origin main
@@ -33,6 +33,10 @@ app.get('/homepage', (req, res) => {
     res.render('homepage');
 });
 
+app.get('/rewards', (req, res) => {
+    res.render('rewards');
+});
+
 app.get('/', (req, res) => {
 
     res.sendFile('./views/index.html', {
@@ -46,6 +50,22 @@ app.get('/toolsforyourstudy', (req, res) => {
         root: __dirname
     });
 });
+
+app.get('/toolsforyourstudy', (req, res) => {
+
+    res.sendFile('./views/Tools_for_your_study.html', {
+        root: __dirname
+    });
+});
+
+app.get('/upload', (req, res) => {
+
+    res.sendFile('./views/Upload.html', {
+        root: __dirname
+    });
+});
+
+
 
 app.use((req, res) => {
 

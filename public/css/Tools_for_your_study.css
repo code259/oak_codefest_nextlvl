@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;900&display=swap');
 
+.deadphone {
+    position: absolute;
+    top: -1rem;
+    left: 3rem;
+}
+
+.triangle_clip {
+    position: absolute;
+    width: 937.58px;
+    height: 980.05px;
+    left: -300.02px;
+    top: -750.58px;
+    z-index: -1;
+
+    background: rgba(71, 35, 217, 0.25);
+    transform: rotate(155deg);
+}
+
 h1 {
     margin-left: 28rem;
     position: absolute;
@@ -7,4 +25,96 @@ h1 {
     font-weight: 900;
     font-family: 'Montserrat';
     color: #454E6A;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    position: absolute;
+    top: 15vh;
+    left: -10vh;
+    list-style-type: none;
+
+}
+
+
+
+
+.uno button {
+    background-color: #FFD200;
+    opacity: 50%;
+    list-style-type: none;
+    border: none;
+    border-radius: 25px;
+    font-family: Montserrat;
+    list-style-type: none;
+    margin-top: 10px;
+    width: 23rem;
+    height: 6rem;
+    margin-left: 60rem;
+    font-size: large;
+    text-align: start;
+}
+
+.playnow {
+    border: none;
+    border-radius: 25px;
+    font-family: Montserrat;
+    width: 20rem;
+    height: 6rem;
+    background-color: rgba(104, 225, 253, 0.5);
+    font: 900;
+    margin-top: 20rem;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    font-size: 2.3rem;
+    justify-content: center;
+
+
+}
+
+.iconify {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.txtff {
+    font-family: Montserrat;
+    font-size: 2rem;
+    margin-left: 10rem;
+}
+
+.allart1 {
+    list-style-type: none;
+
+}
+
+.allart1 li {
+    position: absolute;
+    left: -52.5rem;
+    width: 5rem;
+}
+
+
+.artists1 {
+    position: absolute;
+    left: -52.5rem;
+    width: 450px;
+}
+
+.artists .artists2 {
+    position: absolute;
+    left: -52.5rem;
+    top: 1rem;
+    width: 450px;
+    background-color: aqua;
+}
+
+.artists3 {
+    position: absolute;
+    left: -52.5rem;
+    top: 5rem;
+    width: 450px;
 }

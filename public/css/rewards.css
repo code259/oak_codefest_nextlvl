@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.banner {
+    background-color: #68E1FD;
+    width: 182.5vh;
+    height: 175px;
+}
+
+.banner_text {
+    position: absolute;
+    top: 65px;
+    left: 72vh;
+    font-weight: 300;
+}
+
+.totals_section {
+    display: flex;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 55vh;
+    margin-top: 1.5rem;
+    width: 540px;
+    height: 115px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.25)
+}
+
+.bill1 {
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+.bill2 {
+    margin-top: 2.5rem;
+    margin-left: 65.5rem;
+    transform: rotate(30deg);
+}
+
+.line_border {
+    background-color: #1A2547;
+    width: 1px;
+    height: 100px;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.total-part1 {
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.total-part2 {
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.iconify {
+    margin-right: 0rem;
+    margin-left: -1rem;
+}
+
+.total-1-text {
+    margin-top: 3px;
+    margin-left: 2rem;
+}
+
+.total-2-text {
+    margin-top: 3px;
+    margin-left: 2.5rem;
+}
+
+.reward_heading1 {
+    position: absolute;
+    left: 12.5rem;
+    font-weight: 400;
+}
+
+.reward_heading2 {
+    position: absolute;
+    left: 66.5rem;
+    font-weight: 400;
+}
+
+.circular_underline1 {
+    margin-top: 1.85rem;
+    width: 75px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #68E1FD;
+    position: absolute;
+    left: 12.5rem;
+}
+
+.circular_underline2 {
+    margin-top: 1.85rem;
+    width: 75px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #68E1FD;
+    position: absolute;
+    left: 66.5rem;
+
+}
+
+.parental_reward_card {
+    width: 494px;
+    height: 100px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.25);
+}
+
+.body_main {
+    display: flex;
+}
+
+.powerup_full_section {
+    display: grid;
+}
