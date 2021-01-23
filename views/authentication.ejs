@@ -18,12 +18,12 @@
     </div>
     <div class="right-side">
         <h2>Sign In</h2>
-        <form>
+        <form id="signInForm">
             <label>Email:</label>
             <input type="text">
             <label>Password: </label>
             <input type="text">
-            <button class="google_button"> <span><img src="images/google.png" alt="google logo"
+            <button class="google_button" onclick="googleSignIn()"> <span><img src="images/google.png" alt="google logo"
                         class="google_img"></span> <span class="google_text">Login with Google</span></button>
             <button class="normal_auth">Sign In</button>
         </form>
@@ -33,11 +33,17 @@
             <input type="text">
             <label>Password:</label>
             <input type="text">
-            <button class="google_button"> <span><img src="images/google.png" alt="google logo"
-                        class="google_img"></span> <span class="google_text">Login with Google</span></button>
             <button class="normal_auth">Register</button>
         </form>
     </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+
+    <script src="/js/auth.js"></script>
+    <script src="/js/firebase.js"></script>
 </body>
 
 </html>

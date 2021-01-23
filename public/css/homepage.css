@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +8,52 @@
 
 body {
     display: flex;
+    font-family: 'Montserrat';
+}
+
+nav {
+    margin-left: 1rem;
+}
+
+nav img {
+    margin-top: 6.8rem;
+    margin-left: -1rem;
+}
+
+.logo {
+    width: 23px;
+    height: 23px;
+    margin-top: 5rem;
+}
+
+.background_logo {
+    margin-left: -55rem;
+    margin-top: 8.5rem;
+    width: 680px;
+    height: 700px;
+}
+
+.go_premium {
+    background-color: #68E1FD;
+    color: black;
+    width: 200;
+    height: 50px;
+    margin-top: 6.8rem;
+    margin-left: 55rem;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+
+.premium_text {
+    margin-left: -5.5rem;
+    margin-right: 2rem;
+    margin-top: 0.35rem;
+    position: absolute;
+
+}
+
+.iconify {
+    margin-right: 7.5rem;
 }
