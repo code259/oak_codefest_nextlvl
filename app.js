@@ -40,9 +40,16 @@ app.get('/', (req, res) => {
     });
 });
 
-app.use('/404', (req, res) => {
+app.get('/toolsforyourstudy', (req, res) => {
+
+    res.sendFile('./views/Tools_for_your_study.html', {
+        root: __dirname
+    });
+});
+
+app.use((req, res) => {
 
     res.status(404).sendFile('./views/404.html', {
         root: __dirname
-    });
+    })
 })

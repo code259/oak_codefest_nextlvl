@@ -12,23 +12,26 @@ body {
 }
 
 nav {
+    margin-top: 1rem;
     margin-left: 1rem;
 }
 
 nav img {
-    margin-top: 6.8rem;
+    margin-top: 29.8rem;
     margin-left: -1rem;
 }
 
 .logo {
-    width: 23px;
-    height: 23px;
+    width: 62px;
+    height: 20.8px;
     margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 0.09rem;
 }
 
 .background_logo {
     margin-left: -55rem;
-    margin-top: 8.5rem;
+    margin-top: 6.5rem;
     width: 680px;
     height: 700px;
 }
@@ -54,6 +57,173 @@ nav img {
 
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
 .iconify {
     margin-right: 7.5rem;
 }
+
+.signout_btn {
+    margin-top: 3rem;
+    position: absolute;
+    left: 1rem;
+    top: 550px;
+    display: flex;
+}
+
+.signout_btn p {
+    margin-left: -6.75rem;
+    margin-top: 0.15rem;
+}
+
+.time_your_study {
+    margin-top: 1rem;
+    position: absolute;
+    top: 180px;
+    left: 1rem;
+    display: flex;
+}
+
+.time_your_study p {
+    margin-left: -6.75rem;
+    margin-top: 0.15rem;
+}
+
+.analytics {
+    margin-top: 1rem;
+    position: absolute;
+    top: 220px;
+    left: 1rem;
+    display: flex;
+}
+
+.analytics p {
+    margin-left: -6.75rem;
+    margin-top: 0.15rem;
+}
+
+.tools_foryour_study {
+    margin-top: 1rem;
+    position: absolute;
+    top: 260px;
+    left: 1rem;
+    display: flex;
+}
+
+.tools_foryour_study p {
+    margin-left: -6.75rem;
+    margin-top: 0.15rem;
+}
+
+.rewards {
+    margin-top: 1rem;
+    position: absolute;
+    top: 300px;
+    left: 1rem;
+    display: flex;
+}
+
+.rewards p {
+    margin-left: -6.75rem;
+    margin-top: 0.15rem;
+}
+
+.upload {
+    margin-top: 1rem;
+    position: absolute;
+    left: 52px;
+    top: 340px;
+    display: flex;
+}
+
+.upload_icon {
+    margin-top: 1rem;
+    position: absolute;
+    left: 17px;
+    top: 337.5px;
+
+}
+
+.stay_motivated {
+    margin-top: 1rem;
+    position: absolute;
+    top: 380px;
+    left: 1rem;
+    display: flex;
+}
+
+.stay_motivated p {
+    margin-left: -6.75rem;
+    margin-top: 0.15rem;
+}
+
+.parental_controls {
+    margin-top: 1rem;
+    position: absolute;
+    top: 420px;
+    left: 1rem;
+    display: flex;
+}
+
+.parental_controls p {
+    margin-left: -6.75rem;
+    margin-top: 0.15rem;
+}
+
+.tune_your_mind {
+    margin-top: 1rem;
+    position: absolute;
+    top: 460px;
+    left: 1rem;
+    display: flex;
+}
+
+.tune_your_mind p {
+    margin-left: -6.75rem;
+    margin-top: 0.15rem;
+}
+
+.line_border {
+    height: 5px;
+    color: #ECEDF0;
+    position: absolute;
+    top: 502.5px;
+    left: 1rem;
+}
+
+.profile_pic {
+    margin-top: 2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: absolute;
+    top: 512.5px;
+    left: 0.75rem;
+    background-color: grey;
+}
+
+.profile {
+    margin-top: 3rem;
+    position: absolute;
+    top: 500px;
+    left: 1rem;
+    margin-left: 3rem;
+}
+
+#searchbar {
+    border: none;
+    background-color: #F4F8FB;
+    width: 235px;
+    height: 47px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+#searchbar:focus {
+    outline: none;
+}
+
+/* MediaQueries Come here */

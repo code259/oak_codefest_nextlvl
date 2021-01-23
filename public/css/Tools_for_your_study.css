@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;900&display=swap');
+
+h1 {
+    margin-left: 28rem;
+    position: absolute;
+    top: 1rem;
+    font-weight: 900;
+    font-family: 'Montserrat';
+    color: #454E6A;
+}
