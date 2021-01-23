@@ -32,3 +32,17 @@ app.get('/authentication', (req, res) => {
 app.get('/homepage', (req, res) => {
     res.render('homepage');
 });
+
+app.get('/', (req, res) => {
+
+    res.sendFile('./views/index.html', {
+        root: __dirname
+    });
+});
+
+app.use('/404', (req, res) => {
+
+    res.status(404).sendFile('./views/404.html', {
+        root: __dirname
+    });
+})
