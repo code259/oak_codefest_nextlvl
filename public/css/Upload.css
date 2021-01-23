@@ -39,3 +39,50 @@
 body {
     font-family: 'Montserrat';
 }
+
+.blue {
+    color: #5E8BFF;
+    position: absolute;
+    left: 2rem;
+    top: 27rem;
+
+}
+
+.bluebar {
+    height: 3px;
+    width: 47rem;
+    background-color: #95B8FF;
+    position: absolute;
+    top: 35rem;
+    left: 2rem;
+}
+
+/*uttilitys classes*/
+.ths {
+    color: #1A2547;
+    font-weight: 300;
+}
+
+.th1 {
+    position: absolute;
+    top: 32rem;
+    left: 2rem;
+}
+
+.th2 {
+    position: absolute;
+    top: 32rem;
+    left: 25rem;
+}
+
+.th3 {
+    position: absolute;
+    top: 32rem;
+    left: 36rem
+}
+
+.th4 {
+    position: absolute;
+    top: 32rem;
+    left: 44rem;
+}

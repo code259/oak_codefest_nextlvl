@@ -68,7 +68,7 @@ body {
 }
 
 .iconify {
-    margin-right: 0rem;
+    margin-right: 2.5rem;
     margin-left: -1rem;
 }
 
@@ -79,7 +79,7 @@ body {
 
 .total-2-text {
     margin-top: 3px;
-    margin-left: 2.5rem;
+    margin-left: .5rem;
 }
 
 .reward_heading1 {
@@ -131,6 +131,14 @@ body {
     margin-bottom: 1rem;
 }
 
+.iconify {
+    width: 35px;
+    height: 35px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
 .parental_reward_card p {
     margin-left: 8.5rem;
     margin-bottom: 1rem;
@@ -142,8 +150,9 @@ body {
     margin-left: 0.5rem;
 }
 
-.actual_reward p {
-    margin-right: 8.5rem;
+.parental_reward_section h2 {
+    margin-bottom: 0.75rem;
+    margin-left: 1rem;
 }
 
 .body_main {

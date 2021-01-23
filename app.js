@@ -37,6 +37,10 @@ app.get('/rewards', (req, res) => {
     res.render('rewards');
 });
 
+app.get('/staymotivated', (req, res) => {
+    res.render('stay_motivated');
+});
+
 app.get('/', (req, res) => {
 
     res.sendFile('./views/index.html', {
