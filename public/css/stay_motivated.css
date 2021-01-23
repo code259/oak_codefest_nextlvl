@@ -30,3 +30,20 @@ body {
 .profile_section {
     margin-top: -5rem;
 }
+
+.leaderboard_section2 {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    margin-left: -5rem;
+    margin-top: 3rem;
+    background-color: #E5EDFF;
+    border-radius: 25px;
+}
+
+.leaderboard_section2 img {
+    width: 35px;
+    height: 35px;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+}

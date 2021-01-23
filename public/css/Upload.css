@@ -171,3 +171,35 @@ body {
     top: 39rem;
     left: 45.3rem;
 }
+
+.etern {
+    font-weight: 300;
+    font-size: 16px;
+    position: absolute;
+    top: -1.5rem;
+    left: 67.5rem;
+}
+
+.instructions {
+    margin-left: -1rem;
+    position: absolute;
+    top: 20rem;
+    left: -14rem;
+}
+
+.headd {
+    position: absolute;
+    top: 10rem;
+    left: -15rem;
+
+}
+
+.illustration {
+    position: absolute;
+    width: 361px;
+    height: 342px;
+    left: 1079px;
+    top: -7px;
+
+
+}
