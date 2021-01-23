@@ -86,3 +86,88 @@ body {
     top: 32rem;
     left: 44rem;
 }
+
+.util {
+    color: #898989;
+}
+
+.para1 {
+    position: absolute;
+    top: 35rem;
+    left: 2rem;
+}
+
+.para2 {
+    position: absolute;
+    top: 37rem;
+    left: 2rem;
+}
+
+.para3 {
+    position: absolute;
+    top: 39rem;
+    left: 2rem;
+}
+
+.pic1 {
+    position: absolute;
+    top: 35rem;
+    left: 26.2rem;
+}
+
+.pic2 {
+    position: absolute;
+    top: 37rem;
+    left: 26.2rem;
+}
+
+.pic3 {
+    position: absolute;
+    top: 39rem;
+    left: 26.2rem;
+}
+
+.bate {
+    color: #898989;
+}
+
+.uno {
+    position: absolute;
+    top: 35rem;
+    left: 35.6rem;
+}
+
+.dos {
+    position: absolute;
+    top: 37rem;
+    left: 35.6rem;
+}
+
+.tres {
+    position: absolute;
+    top: 39rem;
+    left: 35.6rem;
+}
+
+.jects {
+    color: #898989;
+
+}
+
+.sub1 {
+    position: absolute;
+    top: 35rem;
+    left: 45.3rem;
+}
+
+.sub2 {
+    position: absolute;
+    top: 37rem;
+    left: 45.3rem;
+}
+
+.sub3 {
+    position: absolute;
+    top: 39rem;
+    left: 45.3rem;
+}

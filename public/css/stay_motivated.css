@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.leaderboard {
+    margin-left: 140vh;
+}
+
+.leaderboard_head {
+    font-weight: 400;
+    margin-top: 2.5rem;
+}
+
+.circular_underline {
+    width: 75px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #68E1FD;
+}
+
+
+.profile_section {
+    margin-top: -5rem;
+}
