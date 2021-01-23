@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;900&display=swap');
+
+.textline1 {
+    font-family: Montserrat;
+    margin-left: 18rem;
+    font-weight: 400;
+}
+
+.divider {
+    background-color: #CCCCCD;
+    width: 5px;
+    height: 53vw;
+    margin-top: -3rem;
+    margin-left: 50rem;
+}
+
+.uplbox {
+    border: 1px dashed #5787FF;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 50vw;
+    height: 17.5vw;
+    margin-left: 0px;
+    position: absolute;
+    top: 5rem;
+    left: 2.5rem;
+}
+
+.uppy {
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+
+.txtinc {
+    margin-left: 13rem;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Montserrat';
+}

@@ -115,10 +115,35 @@ body {
 
 }
 
+.parental_reward_section {
+    margin-top: 2.5rem;
+    margin-left: 5rem
+}
+
 .parental_reward_card {
+    margin-top: 2.25rem;
     width: 494px;
-    height: 100px;
+    height: 90px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+}
+
+.parental_reward_card p {
+    margin-left: 8.5rem;
+    margin-bottom: 1rem;
+}
+
+.parental_reward_card h6 {
+    font-weight: 300;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+
+.actual_reward p {
+    margin-right: 8.5rem;
 }
 
 .body_main {
@@ -126,5 +151,14 @@ body {
 }
 
 .powerup_full_section {
+    margin-left: 17.5rem;
+    margin-top: 5rem;
+    width: 600px;
     display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
 }
