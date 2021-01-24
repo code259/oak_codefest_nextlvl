@@ -37,9 +37,16 @@ signupForm.addEventListener('submit', (e) => {
         console.log(cred);
         console.log(cred.user);
         signupForm.reset();
-        window.location.href = "/homepage";
+        db = firebase.firestore();
+        db.collection('users').doc(email).set({
+            nextlvl_coins: 0,
+            points: 0,
+            score: 0,
+        })
+
     });
 });
+
 
 // Sign in with email and password 
 

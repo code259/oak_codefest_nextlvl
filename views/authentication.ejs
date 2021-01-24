@@ -18,7 +18,7 @@
     </div>
     <div class="right-side">
         <h2>Sign In</h2>
-        <form id="signInForm" method="POST" action="app.js">
+        <form id="signInForm">
             <label>Email:</label>
             <input type="text" id="email_signin">
             <label>Password: </label>
@@ -28,7 +28,7 @@
             <button class="normal_auth">Sign In</button>
         </form>
         <h2>Register</h2>
-        <form id="signupForm" method="POST" action="app.js">
+        <form id="signupForm">
             <label>Email:</label>
             <input type="text" id="email_register" required>
             <label>Password:</label>
@@ -41,9 +41,11 @@
     <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
 
     <script src="/js/auth.js"></script>
     <script src="/js/firebase.js"></script>
+    <script src="/js/db.js"></script>
 </body>
 
 </html>

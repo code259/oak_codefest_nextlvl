@@ -48,12 +48,6 @@ app.get('/', (req, res) => {
     });
 });
 
-app.get('/toolsforyourstudy', (req, res) => {
-
-    res.sendFile('./views/Tools_for_your_study.html', {
-        root: __dirname
-    });
-});
 
 app.get('/toolsforyourstudy', (req, res) => {
 
