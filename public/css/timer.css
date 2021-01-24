@@ -42,6 +42,7 @@
 }
 
 .m {
+    margin-left: 5rem;
     position: absolute;
     top: 4rem;
     left: 32rem;
@@ -74,28 +75,28 @@
     font-weight: bolder;
     font-size: 61px;
     color: white;
-    margin-left: 11px;
+    margin-left: 17px;
 }
 
 .coins {
     position: absolute;
     top: 30rem;
     font-size: 32px;
-    margin-left: 11px;
+    margin-left: 17px;
 }
 
 .points {
     position: absolute;
     top: 35rem;
     font-size: 32px;
-    margin-left: 11px;
+    margin-left: 17px;
 }
 
 .score {
     position: absolute;
     top: 40rem;
     font-size: 32px;
-    margin-left: 11px;
+    margin-left: 17px;
 }
 
 .strt {
@@ -103,7 +104,7 @@
     left: 41rem;
     top: 19rem;
     width: 500px;
-    height: 500px;
+    height: 250px;
     background-color: #20D00A;
     border: none;
     border-radius: 5px;
@@ -113,6 +114,129 @@
     font-family: Montserrat;
     font-weight: bolder;
     font-size: 71px;
+    position: absolute;
+    top: -3rem;
+    left: 7.5rem;
     color: white;
 
+
+}
+
+.bstscr {
+    width: 500px;
+    height: 150px;
+    background-color: #4157A9;
+    position: absolute;
+    top: 51rem;
+    border-radius: 10px;
+}
+
+.wow {
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 21px;
+    color: white;
+    margin-left: 12px;
+}
+
+.gforms {
+    width: 920px;
+    height: 150px;
+    background-color: #0F2E9F;
+    position: absolute;
+    top: 51rem;
+    left: 41rem;
+    border-radius: 10px
+}
+
+.cool {
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 19 px;
+    color: white;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+.powerup {
+    height: 780px;
+    width: 380px;
+    background-color: #A4B3E7;
+    position: absolute;
+    top: 1rem;
+    left: 75rem;
+    border-radius: 10px;
+}
+
+.butstyle {
+    flex-direction: column;
+    width: 350px;
+    height: 50px;
+    justify-content: center;
+    margin-left: 19px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.txtstyle {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 9 px;
+    color: 3258E1;
+    margin-left: 7px;
+}
+
+.phead {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 19 px;
+    color: #3258E1;
+    margin-left: 6px;
+}
+
+.linke {
+    text-decoration: none;
+    color: white;
+}
+
+.form_link {
+    color: white;
+}
+
+.stop {
+    position: absolute;
+    left: 41rem;
+    top: 35rem;
+    width: 500px;
+    height: 125px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.clear {
+    position: absolute;
+    left: 41rem;
+    top: 43rem;
+    width: 500px;
+    height: 125px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+#stopwatch {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 19px;
+    color: white;
+    margin-left: 6px;
+    position: absolute;
+    top: 3rem;
+    left: 31.5rem;
 }

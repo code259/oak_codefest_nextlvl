@@ -53,7 +53,7 @@ body {
     height: 50px;
     display: flex;
     margin-left: -6rem;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     background-color: #FFE5E5;
     border-radius: 25px;
 }
@@ -70,7 +70,7 @@ body {
     height: 50px;
     display: flex;
     margin-left: -6rem;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     background-color: #E8FFE5;
     border-radius: 25px;
 }
@@ -87,7 +87,7 @@ body {
     height: 50px;
     display: flex;
     margin-left: 63rem;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     background-color: #F7FFE5;
     border-radius: 25px;
 }
@@ -104,7 +104,7 @@ body {
     height: 50px;
     display: flex;
     margin-left: 63rem;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     background-color: #FFE5FC;
     border-radius: 25px;
 }
@@ -121,7 +121,7 @@ body {
     height: 50px;
     display: flex;
     margin-left: 63rem;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     background-color: #FFF3E5;
     border-radius: 25px;
 }
@@ -138,7 +138,7 @@ body {
     height: 50px;
     display: flex;
     margin-left: 63rem;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     background-color: #E5FDFF;
     border-radius: 25px;
 }
@@ -155,7 +155,7 @@ body {
     height: 50px;
     display: flex;
     margin-left: 63rem;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     background-color: #FFEFF3;
     border-radius: 25px;
 }
@@ -172,7 +172,7 @@ body {
     height: 50px;
     display: flex;
     margin-left: 63rem;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     background-color: #E8EBF0;
     border-radius: 25px;
 }
@@ -378,4 +378,105 @@ h1 {
 .m9 p {
     margin-top: 0.5rem;
     margin-left: 1.5rem;
+}
+
+.middle_divider {
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 7.5rem;
+    left: 20rem;
+    height: 1.5px;
+    width: 81.2vh;
+}
+
+.videocall {
+    position: absolute;
+    top: 6rem;
+    left: 57.5rem;
+}
+
+.meeting_description h1 {
+    position: absolute;
+    top: 9.5rem;
+    left: 22.5rem;
+    margin-bottom: 1rem;
+}
+
+.productivity {
+    color: #5989FF;
+    background-color: #CFDCFF;
+    width: 135px;
+    height: 30px;
+    position: absolute;
+    top: 9.25rem;
+    left: 42.5rem;
+    margin-bottom: 1rem;
+}
+
+.productivity p {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.date {
+    position: absolute;
+    top: 12.25rem;
+    left: 22rem;
+    display: flex;
+}
+
+.smallsec_info {
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    color: #B0B1B1;
+}
+
+.time {
+    position: absolute;
+    top: 12.25rem;
+    left: 32rem;
+    display: flex;
+}
+
+.duration {
+    position: absolute;
+    top: 12.25rem;
+    left: 44rem;
+    display: flex;
+}
+
+.description {
+    font-size: 14px;
+    color: #B0B1B1;
+    position: absolute;
+    top: 16rem;
+    left: 22rem;
+}
+
+.des_title {
+    margin-bottom: 1rem;
+}
+
+.meeting_header {
+    font-size: 14px;
+    color: #B0B1B1;
+    position: absolute;
+    top: 22rem;
+    left: 22rem;
+}
+
+.participants_list {
+    display: flex;
+    position: absolute;
+    top: 24rem;
+    left: 22rem;
+}
+
+.calendar_link {
+    font-size: 14px;
+    color: #B0B1B1;
+    position: absolute;
+    top: 26rem;
+    left: 22rem;
 }

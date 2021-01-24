@@ -19,15 +19,9 @@
         <p class="seconds format">
             Seconds
         </p>
-        <p class="h format">
-            16
-        </p>
-        <p class="m format">
-            45
-        </p>
-        <p class="s format">
-            16
-        </p>
+        <div id="stopwatch">
+            00:00:00
+        </div>
 
     </div>
     <div class="tot">
@@ -42,9 +36,61 @@
             Score : 21
         </p>
     </div>
-    <button class="strt">
+    <button class="strt" onclick="startTimer()">
         <h2 class="txt">Start !</h2>
     </button>
+    <button class="stop" onclick="stopTimer()">
+        <h2 class="txt">Stop !</h2>
+    </button>
+    <button class="clear" onclick="resetTimer()">
+        <h2 class="txt">Clear!</h2>
+    </button>
+    <div class="bstscr">
+        <h4 class="wow">Best Score in one session</h4>
+        <p class="ac wow">Score :- 36</p>
+    </div>
+    <div class="gforms">
+        <p class="oneliner cool">
+            Google Forms Health Survey
+        </p>
+        <p class="dkread cool">
+            We ask you a series of questions to analyse whether you are being healthy while studying .....
+        </p>
+        <p class="linke cool"><a class="form_link" href="https://forms.gle/jmv3RaJfaPD99NXFA" target="_blank">Health
+                Survey Form!</a>
+
+        </p>
+    </div>
+    <div class="powerup">
+        <h1 class="phead">Powerups</h1>
+        <button class="1 butstyle">
+            <p class="txtstyle">^2</p>
+        </button>
+        <button class="2 butstyle">
+            <p class="txtstyle">^2</p>
+        </button>
+        <button class="3 butstyle">
+            <p class="txtstyle">^2</p>
+        </button>
+        <button class="4 butstyle">
+            <p class="txtstyle">^2</p>
+        </button>
+        <button class="5 butstyle">
+            <p class="txtstyle">^2</p>
+        </button>
+        <button class="6 butstyle">
+            <p class="txtstyle">^2</p>
+        </button>
+        <button class="7 butstyle">
+            <p class="txtstyle">^2</p>
+        </button>
+        <button class="8 butstyle">
+            <p class="txtstyle">^2</p>
+        </button>
+
+    </div>
+
+    <script src="/js/timer.js"></script>
 </body>
 
 </html>

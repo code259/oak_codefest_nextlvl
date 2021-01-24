@@ -11,10 +11,10 @@
 <body>
     <nav>
         <img src="images/full_logo.png" alt="logo" class="logo">
-        <input type="text" id="searchbar" placeholder="                     Help Section">
+        <input type="url" id="searchbar">
         <div class="time_your_study">
             <span class="iconify" data-inline="false" data-icon="bytesize:clock" style="font-size: 25px;"></span>
-            <p> <a href="/timeyourstudy">Time your study</a></p>
+            <p> <a href="/timerpage">Time your study</a></p>
         </div>
         <div class="analytics">
             <span class="iconify" data-inline="false" data-icon="codicon:graph" style="font-size: 25px;"></span>
@@ -50,7 +50,7 @@
             <p>Bob feller</p>
             <p> <small>Grade 6</small></p>
         </div>
-        <div class="signout_btn">
+        <div class="signout_btn" onclick="signOut()">
             <span class="iconify" data-inline="false" data-icon="ph:sign-out" style="font-size: 25px;"></span>
             <p>Sign Out</p>
         </div>
@@ -59,12 +59,21 @@
 
     </nav>
 
-    <button class="go_premium"> <span><span class="iconify" data-inline="false" data-icon="mdi:crown-outline"
-                style="font-size: 24px;"></span></span> <span class="premium_text">Go Premium </span></button>
+    <button class="go_premium" onclick="premiumNotification()"> <span><span class="iconify" data-inline="false"
+                data-icon="mdi:crown-outline" style="font-size: 24px;"></span></span> <span class="premium_text">Go
+            Premium </span></button>
 
     <img src="images/background_logo.png" alt="logo" class="background_logo">
 
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+
+    <script src="/js/general.js"></script>
+    <script src="/js/auth.js"></script>
+    <script src="/js/firebase.js"></script>
 </body>
 
 </html>

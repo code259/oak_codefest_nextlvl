@@ -1,10 +1,7 @@
 console.log(firebase);
 
 
-const signInForm = document.getElementById('signInForm');
-signInForm.addEventListener('click', (e) => {
-    e.preventDefault();
-})
+
 
 // have loader until comes
 
@@ -23,21 +20,44 @@ function googleSignIn() {
     //window.location.href = "/homepage";
 }
 
-// Sign in with email and password
+// Sign up with email and password
 
-const registerForm = document.getElementById('#registerForm');
-registerForm.addEventListener('click', (e) => {
+
+const signupForm = document.querySelector('#signupForm');
+signupForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    const email = registerForm['email_register'].value;
-    const password = registerForm['password_register'].value;
+    const email = signupForm['email_register'].value;
+    const password = signupForm['password_register'].value;
 
     console.log(email, password);
 
     // create new user
 
     firebase.auth().createUserWithEmailAndPassword(email, password).then(cred => {
-        console.log(cred)
-        console.log(cred.user)
-        registerForm.reset();
+        console.log(cred);
+        console.log(cred.user);
+        signupForm.reset();
+        window.location.href = "/homepage";
     });
 });
+
+// Sign in with email and password 
+
+const signinForm = document.querySelector('#signInForm');
+signinForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const email = signInForm['email_signin'];
+    const password = signInForm['password_signin'];
+
+    auth.signInWithEmailAndPassword(email, password).then(cred => {
+        console.log(cred.user)
+
+        signInForm.reset();
+        window.location.href = "/homepage";
+    });
+
+});
+
+function signOut() {
+    firebase.auth.signOut();
+}
